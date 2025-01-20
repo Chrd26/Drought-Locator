@@ -1,0 +1,30 @@
+{
+  "name": "drought-locator",
+  "version": "0.0.1",
+  "description": "Drought Locator is web application that uses satellite data to detect drought",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrd26/Drought-Locator.git"
+  },
+  "keywords": [
+    "drought",
+    "science",
+    "research",
+    "locations",
+    "earth",
+    "climate"
+  ],
+  "author": "The_Runner_01",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrd26/Drought-Locator/issues"
+  },
+  "homepage": "https://github.com/Chrd26/Drought-Locator#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
