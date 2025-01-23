@@ -1,9 +1,12 @@
-const express = require('express');
+import express from 'express';
 const app = express();
 const port = 3000;
-const homepage = require('./routers/homepage.js');
+import { homepageRouter } from './routers/homepage.js';
 
-app.use('/', homepage);
+app.set('views', './views');
+app.set('view engine', 'pug');
+
+app.use('/', homepageRouter);
 
 app.listen(port, () => {
     console.log(`Example app listening to port ${port}`);
